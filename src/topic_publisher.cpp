@@ -20,7 +20,7 @@ int main(int argc, char **argv)
         msg.data = count;
 
         ROS_INFO("this is master please pull send msg = %d", msg.stamp.sec);
-        ROS_INFO("send msg = %d", msg.stamp.nsec);
+        ROS_INFO("pull and ploblem send msg = %d", msg.stamp.nsec);
         ROS_INFO("send msg = %d", msg.data);
 
         ros_tutorial_pub.publish(msg);
