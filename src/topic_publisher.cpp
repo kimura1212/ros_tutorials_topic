@@ -19,7 +19,7 @@ int main(int argc, char **argv)
         msg.stamp = ros::Time::now();
         msg.data = count;
 
-        ROS_INFO("send msg = %d", msg.stamp.sec);
+        ROS_INFO("hello send msg = %d", msg.stamp.sec);
         ROS_INFO("send msg = %d", msg.stamp.nsec);
         ROS_INFO("send msg = %d", msg.data);
 
